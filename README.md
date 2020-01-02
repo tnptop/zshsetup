@@ -4,7 +4,12 @@ Includes all zsh-related plugins, configurations, and magic optimized for this r
 [Antigen](https://github.com/zsh-users/antigen) is used as a plugin manager.
 
 ## Installation
-Make sure that `zsh` is already installed on the machine
+Make sure that the following are already installed on the machine:
+- `zsh`
+- `curl`
+
+If there is `.zshrc` file already in the machine, either copy the content to `zshrc` file or discard it.
+
 ```sh
 git clone https://github.com/tnptop/zshsetup.git /path/to/clone
 cd /path/to/clone/zshsetup
